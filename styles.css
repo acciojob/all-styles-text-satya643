@@ -1,8 +1,8 @@
-/* Reset box-sizing and margins */
+/* Reset default styles */
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
   height: 100vh;
 }
 
-/* Main container */
+/* Main container styles */
 .main {
   width: 200px;
   background-color: rgb(128, 0, 128); /* purple */
@@ -21,7 +21,7 @@ body {
 }
 
 /* Heading styles */
-.heading {
+#heading {
   font-size: 20px;
   color: rgb(255, 255, 255); /* white */
   text-decoration: underline;
