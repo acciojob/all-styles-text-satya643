@@ -1,17 +1,28 @@
-/* Ensures no padding/border affects width */
+/* Reset box-sizing and margins */
 * {
-  box-sizing: content-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container */
 .main {
   width: 200px;
-  background-color: purple;
-  border-left: 5px solid green;
+  background-color: rgb(128, 0, 128); /* purple */
+  border-left: 5px solid rgb(0, 128, 0); /* green */
   padding: 10px;
 }
 
+/* Heading styles */
 .heading {
   font-size: 20px;
-  color: white;
+  color: rgb(255, 255, 255); /* white */
   text-decoration: underline;
 }
